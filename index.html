@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<style>
+			table {
+				border-collapse: collapse;
+			}
+			td {
+				width: 50px;
+				height: 50px;
+			}
+			.black {
+				background-color: black;
+			}
+			.white {
+				background-color: white;
+			}
+			.outer {
+				background-color: orange;
+			}
+			th,
+			td.outer-label {
+				width: 50px;
+				height: 50px;
+				text-align: center;
+				font-weight: bold;
+			}
+			th {
+				background-color: outer;
+			}
+		</style>
+		<title>Chessboard</title>
+	</head>
+	<body>
+		<!-- CHESSBOARD -->
+		<table>
+			<!-- Top row with numbers -->
+			<tr>
+				<th class="outer"></th>
+				<th class="outer">1</th>
+				<th class="outer">2</th>
+				<th class="outer">3</th>
+				<th class="outer">4</th>
+				<th class="outer">5</th>
+				<th class="outer">6</th>
+				<th class="outer">7</th>
+				<th class="outer">8</th>
+				<th class="outer"></th>
+			</tr>
+
+			<!-- Row A -->
+			<tr>
+				<td class="outer-label outer">A</td>
+				<td class="white"></td>
+				<td class="black"></td>
+				<td class="white"></td>
+				<td class="black"></td>
+				<td class="white"></td>
+				<td class="black"></td>
+				<td class="white"></td>
+				<td class="black"></td>
+				<td class="outer"></td>
+			</tr>
+
+			<!-- Row B -->
+			<tr>
+				<td class="outer-label outer">B</td>
+				<td class="black"></td>
+				<td class="white"></td>
+				<td class="black"></td>
+				<td class="white"></td>
+				<td class="black"></td>
+				<td class="white"></td>
+				<td class="black"></td>
+				<td class="white"></td>
+				<td class="outer"></td>
+			</tr>
+
+			<!-- Row C -->
+			<tr>
+				<td class="outer-label outer">C</td>
+				<td class="white"></td>
+				<td class="black"></td>
+				<td class="white"></td>
+				<td class="black"></td>
+				<td class="white"></td>
+				<td class="black"></td>
+				<td class="white"></td>
+				<td class="black"></td>
+				<td class="outer"></td>
+			</tr>
+
+			<!-- Row D -->
+			<tr>
+				<td class="outer-label outer">D</td>
+				<td class="black"></td>
+				<td class="white"></td>
+				<td class="black"></td>
+				<td class="white"></td>
+				<td class="black"></td>
+				<td class="white"></td>
+				<td class="black"></td>
+				<td class="white"></td>
+				<td class="outer"></td>
+			</tr>
+
+			<!-- Row E -->
+			<tr>
+				<td class="outer-label outer">E</td>
+				<td class="white"></td>
+				<td class="black"></td>
+				<td class="white"></td>
+				<td class="black"></td>
+				<td class="white"></td>
+				<td class="black"></td>
+				<td class="white"></td>
+				<td class="black"></td>
+				<td class="outer"></td>
+			</tr>
+
+			<!-- Row F -->
+			<tr>
+				<td class="outer-label outer">F</td>
+				<td class="black"></td>
+				<td class="white"></td>
+				<td class="black"></td>
+				<td class="white"></td>
+				<td class="black"></td>
+				<td class="white"></td>
+				<td class="black"></td>
+				<td class="white"></td>
+				<td class="outer"></td>
+			</tr>
+
+			<!-- Row G -->
+			<tr>
+				<td class="outer-label outer">G</td>
+				<td class="white"></td>
+				<td class="black"></td>
+				<td class="white"></td>
+				<td class="black"></td>
+				<td class="white"></td>
+				<td class="black"></td>
+				<td class="white"></td>
+				<td class="black"></td>
+				<td class="outer"></td>
+			</tr>
+
+			<!-- Row H -->
+			<tr>
+				<td class="outer-label outer">H</td>
+				<td class="black"></td>
+				<td class="white"></td>
+				<td class="black"></td>
+				<td class="white"></td>
+				<td class="black"></td>
+				<td class="white"></td>
+				<td class="black"></td>
+				<td class="white"></td>
+				<td class="outer"></td>
+			</tr>
+			<!-- Final Row -->
+			<tr>
+				<td class="outer"></td>
+				<td class="outer"></td>
+				<td class="outer"></td>
+				<td class="outer"></td>
+				<td class="outer"></td>
+				<td class="outer"></td>
+				<td class="outer"></td>
+				<td class="outer"></td>
+				<td class="outer"></td>
+				<td class="outer"></td>
+			</tr>
+		</table>
+		<br />
+		<br />
+		<!-- SCHEDULE -->
+		<h1 style="color: blue">Tháng 10 - October</h1>
+		<table style="border: 1px #8f8f8f">
+			<!-- First row -->
+			<tr style="color: white">
+				<th style="background-color: red">C.Nhật</th>
+				<th style="background-color: orange">T.Hai</th>
+				<th style="background-color: orange">T.Ba</th>
+				<th style="background-color: orange">T.Tư</th>
+				<th style="background-color: orange">T.Năm</th>
+				<th style="background-color: orange">T.Sáu</th>
+				<th style="background-color: blue">T.Bảy</th>
+			</tr>
+			<!-- Second row -->
+			<tr>
+				<td style="color: red">Sun</td>
+				<td>Mon</td>
+				<td>Tue</td>
+				<td>Wed</td>
+				<td>Thu</td>
+				<td>Fri</td>
+				<td style="color: blue">Sat</td>
+			</tr>
+			<!-- Third row: First 4 cells blank -->
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>1<sub>13</sub></td>
+				<td>2<sub>14</sub></td>
+				<td style="color: blue">3<sub>15</sub></td>
+			</tr>
+			<!-- Fourth row -->
+			<tr>
+				<td style="color: red">4<sub>16</sub></td>
+				<td>5<sub>17</sub></td>
+				<td>6<sub>18</sub></td>
+				<td>7<sub>19</sub></td>
+				<td>8<sub>20</sub></td>
+				<td>9<sub>21</sub></td>
+				<td style="color: blue">10<sub>22</sub></td>
+			</tr>
+			<!-- Fifth row -->
+			<tr>
+				<td style="color: red">11<sub>23</sub></td>
+				<td>12<sub>24</sub></td>
+				<td>13<sub>25</sub></td>
+				<td>14<sub>26</sub></td>
+				<td>15<sub>27</sub></td>
+				<td>16<sub>28</sub></td>
+				<td style="color: blue">17<sub>29</sub></td>
+			</tr>
+			<!-- Sixth row -->
+			<tr>
+				<td style="color: red">18<sub>1,9</sub></td>
+				<td>19<sub>2</sub></td>
+				<td>20<sub>3</sub></td>
+				<td>21<sub>4</sub></td>
+				<td>22<sub>5</sub></td>
+				<td>23<sub>6</sub></td>
+				<td style="color: blue">24<sub>7</sub></td>
+			</tr>
+			<!-- Seventh row -->
+			<tr>
+				<td style="color: red">25<sub>8</sub></td>
+				<td>26<sub>9</sub></td>
+				<td>27<sub>10</sub></td>
+				<td>28<sub>11</sub></td>
+				<td>29<sub>12</sub></td>
+				<td>30<sub>13</sub></td>
+				<td style="color: blue">31<sub>14</sub></td>
+			</tr>
+		</table>
+	</body>
+</html>
